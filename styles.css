@@ -1,1 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #222;
+}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background: #212121;
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+h1{
+    display: flex;
+    justify-items: center;
+    background-color: rgb(96, 96, 226);
+    color: white;
+    margin-top: 0;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#searchButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
